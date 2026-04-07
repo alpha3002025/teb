@@ -44,7 +44,8 @@ The CLI command structure will be:
 ## 5. Implementation Roadmap
 
 ### Phase 1: Foundations & Setup
-- [ ] Initialize the Gemini skill structure (e.g., `skill.toml`, `index.js`, or equivalent).
+- [x] Initialize the Gemini skill structure (`SKILL.md` creation).
+- [x] Ensure the skill is located in the project's `.gemini/skills/teb` directory.
 - [ ] Define the CLI interface using a library like `commander` or the internal Gemini skill framework.
 
 ### Phase 2: Input Handling
@@ -60,6 +61,7 @@ The CLI command structure will be:
 - [ ] Implement Markdown (`.md`) formatter.
 - [ ] Implement Plain Text (`.txt`) formatter.
 - [ ] Implement TOML (`.toml`) formatter (structured extraction).
+- [ ] Ensure output directories are created automatically if they do not exist.
 
 ### Phase 5: Polishing & Testing
 - [ ] Unit tests for file gathering logic.
