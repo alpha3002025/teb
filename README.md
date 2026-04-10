@@ -4,6 +4,9 @@
 
 이 스킬은 프로젝트의 `.gemini/skills/teb` 디렉토리에 위치하며, 워크스페이스 전용 스킬로 작동합니다.
 
+> [!TIP]
+> **Gemini 3 Flash Preview** 또는 **Gemini 3 Flash Preview Lite** 만으로도 만족할만한 결과를 낼 수 있습니다. 가급적이면 Pro 모델을 이 skill에 사용하지 않으시기 바랍니다.
+
 ## 주요 기능
 
 ### 1. ppt-slides
